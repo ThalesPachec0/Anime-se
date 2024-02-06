@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --fonte01: arial, verdana, sans-serif;
+    --fonte02: fonte02;
+    --fonte03: fonte03;
+    --cor01: #E2D8FF;
+    --cor02: #29C0FF;
+    --cor03: #297CFF;
+    --cor04: #2939FF;
+    --cor05: #A429FF;
+}
+@font-face {
+    font-family: fonte02;
+    src: url('../fontes/mangat.ttf') format('truetype');
+} 
+
+@font-face {
+    font-family: fonte03;
+    src: url('../fontes/animeace2_reg.otf') format('opentype');
+}
+    
+body, html {
+    min-height: 100vh;
+    background-color: #29C0FF;
+    font-family: var(--fonte01);
+    text-align: justify;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #2939FF, #2939FF, #E2D8FF);
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 50px;
+    font-family: var(--fonte02);
+    font-size: 10vw;
+    color: #E2D8FF;
+    font-variant: small-caps;
+    
+}
+
+header p {
+    padding-bottom: 50px;
+    font-family: var(--fonte01);
+    color: #A429FF;
+    text-shadow: 2px 1px 1px black;
+    font-weight: bolder;
+   
+}
+
+main {
+    min-width: 200px;
+    max-width: 2000px;
+}
+section {
+    background-color: #29C0FF;
+    
+}
+
+section > p {
+    padding-bottom: 2em;
+    line-height: 1.6em;
+    font-weight: bolder;
+}
+
+section > h1 {
+
+    padding: 8px 0px 8px 30px;
+    font-family: var(--fonte03);
+    background-image: linear-gradient(to right, #A429FF, transparent);
+    color: #E2D8FF;
+    margin-top: 15px;
+    text-shadow: 2px 1px 1px black;
+    font-variant: small-caps;
+}
+
+section.imagem > h2 {
+    width: 400px;
+    margin-left: 10px;
+    background-image: linear-gradient(to right, #A429FF, transparent);
+    padding: 8px;
+    text-shadow: 2px 1px 0px black;
+    color: white;
+    font-family: var(--fonte03);
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+section.imagem > h3 {
+    width: 400px;
+    margin-left: 10px;
+    background-image: linear-gradient(to right, #A429FF, transparent);
+    padding: 8px;
+    text-shadow: 2px 1px 0px black;
+    color: white;
+    font-family: var(--fonte03);
+    }
+
+section.imagem {
+background-size: cover;
+background-attachment: fixed;
+padding: 50px;
+box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.644);
+}
+
+section#img01 {
+    background-image: url('../imagens/sololeveling.jpg');
+    margin-top: 20px;
+    background-position: left top;
+}
+
+section.imagem > p {
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 400px;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+    color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.61);
+}
+
+section.poster {
+
+    background-color: #E2D8FF;
+    height: 500px ;
+}
+
+div {
+    display: inline-flex;
+    margin: 20px;
+}
+
+div > p {
+
+    padding: 20px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+img {
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.61);
+    height: 250px;
+    width: 200px;
+}
+
+section.poster > h2 {
+    text-align: center;
+    font-family: var(--fonte03);
+    padding-top: 15px;
+    color: #2939FF;
+    text-shadow: 1px 1px 1px black;
+}
+
+section#img02 {
+    background-image: url('../imagens/classroom.jpg');
+}
+
+section#img03 {
+    background-image: url('../imagens/metalicrouge.jpg');
+    background-position: center center;
+}
+
+section#img04 {
+    background-image: url('../imagens/akuyaku.jpg');
+    background-position: center center;
+}
+
+section#img05 {
+    background-image: url('../imagens/Matoseihei.jpg');
+    background-position: center center;
+}
+section#img06 {
+    background-image: url('../imagens/Saijaku-Tamer.jpg');
+}
+
+section#img07 {
+    background-image: url('../imagens/tsukimichi.jpg');
+    background-position: center center;
+}
+
+section#img08 {
+    background-image: url('../imagens/aonoexorcist.jpg');
+    background-position: center center;
+}
+
+footer {
+    background-color: #2939FF;
+    color: #E2D8FF;
+    text-align: center;
+    padding: 10px;
+}
