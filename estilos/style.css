@@ -30,6 +30,8 @@ body, html {
     background-color: #29C0FF;
     font-family: var(--fonte01);
     text-align: justify;
+    min-width: 475px;
+    max-width: 2000px;
 }
 
 header {
@@ -56,8 +58,7 @@ header p {
 }
 
 main {
-    min-width: 200px;
-    max-width: 2000px;
+    
 }
 section {
     background-color: #29C0FF;
@@ -72,7 +73,7 @@ section > p {
 
 section > h1 {
 
-    padding: 8px 0px 8px 30px;
+    padding: 8px 5px 8px 30px;
     font-family: var(--fonte03);
     background-image: linear-gradient(to right, #A429FF, transparent);
     color: #E2D8FF;
@@ -105,8 +106,9 @@ section.imagem > h3 {
 
 section.imagem {
 background-size: cover;
+
 background-attachment: fixed;
-padding: 50px;
+padding: 25px;
 box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.644);
 }
 
@@ -178,6 +180,7 @@ section#img05 {
 }
 section#img06 {
     background-image: url('../imagens/Saijaku-Tamer.jpg');
+    background-position: center left;
 }
 
 section#img07 {
@@ -187,7 +190,7 @@ section#img07 {
 
 section#img08 {
     background-image: url('../imagens/aonoexorcist.jpg');
-    background-position: center center;
+    background-position: top center;
 }
 
 footer {
