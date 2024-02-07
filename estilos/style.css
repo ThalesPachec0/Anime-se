@@ -73,7 +73,7 @@ section > p {
 
 section > h1 {
 
-    padding: 8px 5px 8px 30px;
+    padding: 15px 5px 8px 30px;
     font-family: var(--fonte03);
     background-image: linear-gradient(to right, #A429FF, transparent);
     color: #E2D8FF;
